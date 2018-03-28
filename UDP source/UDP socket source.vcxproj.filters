@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\common\socket.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="publisher.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ticker_source.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="timings.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\app.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\stock_response_factory.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\socket.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ticker_source.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="timings.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\app.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\stock_response_factory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{9fcb8b86-7c3f-486f-99fe-3970f78db2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{78fd3266-8442-44f1-9982-8147efb723e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\socket.inl">
+      <Filter>common</Filter>
+    </None>
+  </ItemGroup>
+</Project>
